@@ -11763,7 +11763,7 @@ html {
     height: 250px; /* Set the height of the image for smaller screens */
   }
 }
-/*contact*/
+/*Contact*/
 .gap-3 {
   gap: 1rem !important
 }
@@ -11847,4 +11847,3 @@ html {
 .bs-icon.bs-icon-circle {
   border-radius: 50%
 }
-
