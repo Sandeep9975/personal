@@ -11764,6 +11764,9 @@ html {
   }
 }
 /*Contact*/
+.py-5{
+  background-color: #f8f9fa;
+}
 .gap-3 {
   gap: 1rem !important
 }
