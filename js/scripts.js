@@ -1,7 +1,7 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Hide the loader and display the content when the page has finished loading
+    window.addEventListener('load', function () {
+      var loader = document.getElementById('loader');
+      var content = document.getElementById('content');
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    });
