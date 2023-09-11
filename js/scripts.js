@@ -1,7 +1,14 @@
-// Hide the loader and display the content when the page has finished loading
-    window.addEventListener('load', function () {
-      var loader = document.getElementById('loader');
-      var content = document.getElementById('content');
-      loader.style.display = 'none';
-      content.style.display = 'block';
-    });
+/*
+ JS to toggle scroll axis styles
+*/
+const control = document.getElementById("direction-toggle");
+const marquees = document.querySelectorAll(".marquee");
+const wrapper = document.querySelector(".wrapper");
+
+control.addEventListener("click", () => {
+  control.classList.toggle("toggle--vertical");
+  wrapper.classList.toggle("wrapper--vertical");
+  [...marquees].forEach((marquee) =>
+    marquee.classList.toggle("marquee--vertical")
+  );
+});
